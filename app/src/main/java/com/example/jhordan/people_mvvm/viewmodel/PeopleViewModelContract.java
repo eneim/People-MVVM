@@ -28,7 +28,7 @@ public interface PeopleViewModelContract {
 
     Context getContext();
 
-    void loadData(List<People> peoples);
+    void renderData(List<People> peoples);
   }
 
   interface ViewModel {

@@ -71,7 +71,7 @@ public class PeopleViewModel implements PeopleViewModelContract.ViewModel {
             mPeopleList.set(View.VISIBLE);
 
             if (mMainView != null) {
-              mMainView.loadData(peopleResponse.getPeopleList());
+              mMainView.renderData(peopleResponse.getPeopleList());
             }
           }
         }, new Action1<Throwable>() {
